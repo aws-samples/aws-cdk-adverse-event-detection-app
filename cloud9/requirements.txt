@@ -1,0 +1,10 @@
+numpy
+Cython
+spacy
+langdetect
+pandas
+requests
+boto3
+datetime
+twython
+geonamescache
