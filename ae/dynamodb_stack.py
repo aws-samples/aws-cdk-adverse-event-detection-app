@@ -33,12 +33,14 @@ class TweetsTable(core.Construct):
             assumed_by = iam.CompositePrincipal(
                 iam.ServicePrincipal("sagemaker.amazonaws.com"),
                 iam.ServicePrincipal("lambda.amazonaws.com"),
-                iam.ServicePrincipal("dynamodb.amazonaws.com")
+                iam.ServicePrincipal("dynamodb.amazonaws.com"),
+                iam.ServicePrincipal("comprehendmedical.amazonaws.com")
             )
         )
         self._lambda_iam.add_managed_policy(iam.ManagedPolicy.from_aws_managed_policy_name('AmazonS3FullAccess'))
         self._lambda_iam.add_managed_policy(iam.ManagedPolicy.from_aws_managed_policy_name('AmazonDynamoDBFullAccess'))
         self._lambda_iam.add_managed_policy(iam.ManagedPolicy.from_aws_managed_policy_name('AmazonSageMakerFullAccess'))
+        self._lambda_iam.add_managed_policy(iam.ManagedPolicy.from_aws_managed_policy_name('ComprehendMedicalFullAccess'))
 
         self._handler = _lambda.Function(
             self, 'InferenceHandler',

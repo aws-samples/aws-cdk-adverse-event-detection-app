@@ -1,4 +1,4 @@
-#
+
 # Welcome to your Adverse Event Python project!
 
 The Adverse Event project is templatized with Amazon CDK. The `cdk.json` file tells the CDK Toolkit how to execute your app.
@@ -84,12 +84,3 @@ command.
 ## Useful links
 
 ## Others
-
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
-
