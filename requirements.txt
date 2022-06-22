@@ -60,7 +60,7 @@ lazy-object-proxy==1.5.0
 MarkupSafe==1.1.1
 mccabe==0.6.1
 murmurhash==1.0.2
-numpy==1.19.1
+numpy==1.22.0
 oauthlib==3.1.0
 pandas==1.1.0
 parso==0.1.1
