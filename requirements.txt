@@ -108,7 +108,7 @@ wasabi==0.7.1
 wcwidth==0.2.5
 websocket-client==0.57.0
 Werkzeug==1.0.0
-wheel==0.34.2
+wheel==0.38.1
 whichcraft==0.6.1
 wrapt==1.12.1
 zipp==3.1.0
