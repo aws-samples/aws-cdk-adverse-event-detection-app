@@ -46,7 +46,7 @@ git-remote-codecommit==1.13
 idna==2.8
 ikp3db==1.4.1
 importlib-metadata==1.7.0
-ipython==7.16.1
+ipython==8.10.0
 ipython-genutils==0.2.0
 isort==5.1.1
 itsdangerous==1.1.0
