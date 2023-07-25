@@ -26,7 +26,7 @@ blis==0.4.1
 boto3
 botocore
 catalogue==1.0.0
-certifi==2019.11.28
+certifi==2023.7.22
 chardet==3.0.4
 chevron==0.13.1
 click==7.1.2
